@@ -1,0 +1,9 @@
+mcp>=2
+python-docx
+python-pptx
+av
+
+# transcribe.py also needs a whisper.cpp binary + ggml model, which aren't
+# pip packages -- see whisper.cpp/ (source + build2/ build output) and
+# whisper.cpp/models/ggml-small.bin under this project, and the docstring
+# at the top of transcribe.py for why/how they were built.

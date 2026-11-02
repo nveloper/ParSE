@@ -1,0 +1,23 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local MCP client configuration (contains machine-specific paths)
+.mcp.json
+
+# External whisper.cpp checkout, build artifacts, and models (distributed separately)
+/whisper.cpp/
+*.bin
+*.gguf
+*.exe
+
+# Editor / OS
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
